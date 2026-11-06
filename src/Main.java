@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         String arquivo = args.length > 0 ? args[0] : "female_names.txt";
 
-        // ---------- 1. Leitura do arquivo ----------
+        // Leitura do arquivo
         List<String> nomes;
         try {
             nomes = lerNomes(arquivo);
